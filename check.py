@@ -22,4 +22,4 @@ pwn_count = meow["count"]
 if pwn_count > 0:
     print(f"This password has been pwned {pwn_count} times. Better use different one.")
 else:
-    print(f"Can't find any known pwnage for this password")
+    print("Can't find any known pwnage for this password.")
